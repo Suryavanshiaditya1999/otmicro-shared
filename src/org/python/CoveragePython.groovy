@@ -13,3 +13,4 @@ def call() {
         coverage run -m pytest
         coverage report -m
     """
+}
