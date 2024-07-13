@@ -11,13 +11,13 @@ pipeline {
                 }
             }
         }
-        // stage('Run Coverage2') {
-        //     steps {
-        //         script {
-        //             commongeneric.callCoverage2()
-        //         }
-        //     }
-        // }
+        stage('Hello world') {
+            steps {
+                script {
+                    attendance.helloworld()
+                }
+            }
+        }
         
     }
 }
