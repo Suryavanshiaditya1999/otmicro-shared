@@ -7,7 +7,7 @@ pipeline {
         stage('git checkout') {
             steps {
                 script {
-                    attendance.checkoutgit()
+                    attendance.checkoutgit('https://github.com/OT-MICROSERVICES/attendance-api.git', 'main')
                 }
             }
         }
