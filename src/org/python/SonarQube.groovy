@@ -1,3 +1,5 @@
+package org.python
+
 def call(String projectKey, String sourcesDir, String sonarToken) {
     def scannerHome = tool name: 'SonarQube-Scanner', type: 'hudson.plugins.sonar.SonarRunnerInstallation'
     withSonarQubeEnv('SonarQube') {
