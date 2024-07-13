@@ -4,7 +4,7 @@ pipeline {
     agent any
     
     stages {
-        stage('Run CoveragePython') {
+        stage('git checkout') {
             steps {
                 script {
                     attendance.checkoutgit()
