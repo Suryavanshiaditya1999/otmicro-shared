@@ -7,7 +7,7 @@ pipeline {
         stage('Run CoveragePython') {
             steps {
                 script {
-                    attendance.callCoveragePython()
+                    attendance.checkoutgit()
                 }
             }
         }
