@@ -1,3 +1,5 @@
+package org.python
+
 def call() {
     def workspaceDir = "${WORKSPACE}"
     echo "Current directory: ${pwd()}"
