@@ -3,8 +3,8 @@ import org.python.Dependency
 import org.python.SonarQube
 import org.python.UnitTesting
 
-def callCoveragePython() {
-    new CoveragePython().call()
+def call(String gitUrl, String branch = 'main') {
+    new Checkout().call(gitUrl, branch)
 }
 
 def callDependency() {
