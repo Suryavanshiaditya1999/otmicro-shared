@@ -4,7 +4,7 @@
 // import org.python.UnitTesting
 import org.python.Checkout
 
-def call(String gitUrl, String branch = 'main') {
+def checkoutgit(String gitUrl, String branch = 'main') {
     new Checkout().call(gitUrl, branch)
 }
 
